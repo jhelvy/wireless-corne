@@ -47,7 +47,9 @@ I connected the switches following the same strategy as [@petejohanson](https://
 
 The toggle switch itself was easily mounted on the OLED cover by just drilling a hole in the cover, pushing the switch top through it, and securing it in place using the bolts that come with the switches.
 
-![](images/2-toggle.jpg)
+Top | Bottom
+----|----
+![](images/2-toggle.jpg) | ![](images/4-wiring.jpg)
 
 ## Rotary encoder
 
