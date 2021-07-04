@@ -22,9 +22,11 @@
 
 I designed the [3D tent case](https://www.thingiverse.com/thing:4705667) based on [this wireless Corne case](https://www.thingiverse.com/thing:4598829) by [SilentGmn](https://www.thingiverse.com/silentgmn/designs). It was a simple modification to add M5 bolt mounts. The stl files and f3d file to make it are all available in the [case_files folder](https://github.com/jhelvy/wireless-corne/tree/main/case_files) of this repo.
 
+![](images/case.jpg)
+
 # Assembly
 
-![](images/1-starting.jpg)
+![](images/starting.jpg)
 
 For the most part, I followed the [Corne build guide](https://github.com/foostan/crkbd/blob/master/corne-classic/doc/buildguide_en.md) by [@foostan](https://github.com/foostan/), which is pretty straight forward. Since this was a wireless build, I did not install the TRRS jacks, and I also opted not to include OLEDs or LEDs (I wanted to conserve battery life as much as possible).
 
@@ -51,7 +53,7 @@ In the "top" image below, you can see how the battery is connected to the toggle
 
 Top | Bottom
 ----|----
-![](images/2-toggle.jpg) | ![](images/4-wiring.jpg)
+![](images/toggle.jpg) | ![](images/wiring.jpg)
 
 ## Rotary encoder
 
@@ -59,18 +61,27 @@ To mount the encoder, I first soldered 3 wires to the encoder pins and used heat
 
 Top | Bottom
 ----|----
-![](images/3-encoder1.jpg) | ![](images/3-encoder2.jpg)
+![](images/encoder1.jpg) | ![](images/encoder2.jpg)
 
 I then glued the encoder over a switch mount using [JB Weld](https://www.jbweld.com/). This stuff makes an incredibly strong seal, and it also doesn't expand while setting. I let it sit over night using a carefully-balanced can of soda water, pencil holder, and mug to keep downward pressure.
 
 Encoder gluing | Weight
 ----|----
-![](images/3-encoder3.jpg) | ![](images/3-encoder4.jpg)
+![](images/encoder3.jpg) | ![](images/encoder4.jpg)
 
 Once set, I routed the wires through the stand off mounts to the left and right of the encoder, then soldered them to the controller and PCB ground on the bottom of the PCB. The positive and negative leads are soldered to the bottom two opposite pins on the controller (farthest from the USB).
 
 Top | Bottom
 ----|----
-![](images/3-encoder5.jpg) | ![](images/4-wiring.jpg)
+![](images/encoder5.jpg) | ![](images/wiring.jpg)
 
 # Firmware
+
+I'm using the fantastic [ZMK Firmware](https://zmk.dev/) on this board. I still cannot believe such powerful software is available for free...I.love.open.source.code.
+
+My [ZMK configuration files](https://github.com/jhelvy/zmk-config-corne) are based off of [@schwarzer-geiger](https://github.com/schwarzer-geiger/)'s settings [here](https://github.com/schwarzer-geiger/crkbd). I essentially copy-pasted them, then made a few modifications:
+
+- I removed any code pertaining to LEDs (I didn't install these).
+- I swapped some code so that the right side is the central half and the left is the peripheral half. I did this because my rotary encoder is on the right half, and currently ZMK only supports encoders on the central half (for keyboards that don't already have built-in support for encoders, that is).
+- I edited the `west.yml` file such that ZMK builds using [PR#685](https://github.com/zmkfirmware/zmk/pull/685), which is the beta PR for macros (still playing with this).
+
