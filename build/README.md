@@ -55,7 +55,7 @@ Top | Bottom
 
 ## Rotary encoder
 
-To mount the encoder, I first soldered 3 wires to the encoder pins and used heat shrink to keep them extra secure (I later painstakingly removed these wires and replaced them as I found later that these were too thick). I bent the encoder pins a little since I would later route these wires through a couple of the stand off mount holes in the PCB.
+To mount the encoder, I first soldered 3 wires to the encoder pins and used heat shrink to keep them extra secure (I later painstakingly removed these wires and replaced them with some thinner gauge wire as I found these were too thick). I bent the encoder pins a little since I would later route these wires through a couple of the stand off mount holes in the PCB. I also clipped off the two small tabs so I could get the encoder flush to the PCB.
 
 Top | Bottom
 ----|----
