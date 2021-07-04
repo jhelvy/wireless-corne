@@ -57,19 +57,19 @@ Top | Bottom
 
 To mount the encoder, I first soldered 3 wires to the encoder pins and used heat shrink to keep them extra secure (I later painstakingly removed these wires and replaced them as I found later that these were too thick). I bent the encoder pins a little since I would later route these wires through a couple of the stand off mount holes in the PCB.
 
- |
+Top | Bottom
 ----|----
 ![](images/3-encoder1.jpg) | ![](images/3-encoder2.jpg)
 
 I then glued the encoder over a switch mount using [JB Weld](https://www.jbweld.com/). This stuff makes an incredibly strong seal, and it also doesn't expand while setting. I let it sit over night using a carefully-balanced can of soda water, pencil holder, and mug to keep downward pressure.
 
- |
+Encoder gluing | Weight
 ----|----
 ![](images/3-encoder3.jpg) | ![](images/3-encoder4.jpg)
 
 Once set, I routed the wires through the stand off mounts to the left and right of the encoder, then soldered them to the controller and PCB ground on the bottom of the PCB. The positive and negative leads are soldered to the bottom two opposite pins on the controller (farthest from the USB).
 
- |
+Top | Bottom
 ----|----
 ![](images/3-encoder5.jpg) | ![](images/4-wiring.jpg)
 
