@@ -47,7 +47,7 @@ I connected the switches following the same strategy as [@petejohanson](https://
 
 The toggle switch itself was easily mounted on the OLED cover by just drilling a hole in the cover, pushing the switch top through it, and securing it in place using the bolts that come with the switches.
 
-In the image below showing the bottom of the PCB, you can see the battery negative coming through a TRRS hole and soldered to the TRRS ground, and a black wire from the toggle switch coming through another TRRS hole and soldered to the RAW pad. The other three wires coming through stand off holes at the bottom are from the rotary encoder.
+In the "top" image below, you can see how the battery is connected to the toggle switch. In the "bottom" image, showing the bottom of the PCB, you can see the battery negative coming through a TRRS hole and soldered to the TRRS ground, and a black wire from the toggle switch coming through another TRRS hole and soldered to the RAW pad. The other three wires coming through stand off holes at the bottom are from the rotary encoder.
 
 Top | Bottom
 ----|----
@@ -55,6 +55,22 @@ Top | Bottom
 
 ## Rotary encoder
 
+To mount the encoder, I first soldered 3 wires to the encoder pins and used heat shrink to keep them extra secure (I later painstakingly removed these wires and replaced them as I found later that these were too thick). I bent the encoder pins a little since I would later route these wires through a couple of the stand off mount holes in the PCB.
 
+ |
+----|----
+![](images/3-encoder1.jpg) | ![](images/3-encoder2.jpg)
+
+I then glued the encoder over a switch mount using [JB Weld](https://www.jbweld.com/). This stuff makes an incredibly strong seal, and it also doesn't expand while setting. I let it sit over night using a carefully-balanced can of soda water, pencil holder, and mug to keep downward pressure.
+
+ |
+----|----
+![](images/3-encoder3.jpg) | ![](images/3-encoder4.jpg)
+
+Once set, I routed the wires through the stand off mounts to the left and right of the encoder, then soldered them to the controller and PCB ground on the bottom of the PCB. The positive and negative leads are soldered to the bottom two opposite pins on the controller (farthest from the USB).
+
+ |
+----|----
+![](images/3-encoder5.jpg) | ![](images/4-wiring.jpg)
 
 # Firmware
