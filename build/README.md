@@ -47,10 +47,14 @@ I connected the switches following the same strategy as [@petejohanson](https://
 
 The toggle switch itself was easily mounted on the OLED cover by just drilling a hole in the cover, pushing the switch top through it, and securing it in place using the bolts that come with the switches.
 
+In the image below showing the bottom of the PCB, you can see the battery negative coming through a TRRS hole and soldered to the TRRS ground, and a black wire from the toggle switch coming through another TRRS hole and soldered to the RAW pad. The other three wires coming through stand off holes at the bottom are from the rotary encoder.
+
 Top | Bottom
 ----|----
 ![](images/2-toggle.jpg) | ![](images/4-wiring.jpg)
 
 ## Rotary encoder
+
+
 
 # Firmware
