@@ -10,6 +10,7 @@
 
 - Corne PCB kit (and diodes) from [keyhive](https://keyhive.xyz/shop)
 - 2 [nano!nano controllers](https://docs.nicekeyboards.com/#/) from nice! keyboards
+- 2 [301230 li-ion batteries](https://docs.nicekeyboards.com/#/nice!nano/?id=recommended-batteries-and-sockets)
 - 2 [Mill-Max sockets](https://www.digikey.at/product-detail/en/mill-max-manufacturing-corp/110-44-624-41-001000/ED90056-ND/947064) and 48 [Mill-Max socket pins](https://www.digikey.be/product-detail/en/mill-max-manufacturing-corp/3320-1-00-15-00-00-03-0/ED1161-ND/4147393) (I bought 100 just to have extras)
 - [3D-printed tent case](https://www.thingiverse.com/thing:4705667), printed by [P3D Store](https://p3dstore.com/)
 - [M5 nuts & bolts](https://www.amazon.com/gp/product/B07QSFT4ST/) for tent legs
@@ -30,7 +31,9 @@ I designed the [3D tent case](https://www.thingiverse.com/thing:4705667) based o
 
 For the most part, I followed the [Corne build guide](https://github.com/foostan/crkbd/blob/master/corne-classic/doc/buildguide_en.md) by [@foostan](https://github.com/foostan/), which is pretty straight forward. Since this was a wireless build, I did not install the TRRS jacks, and I also opted not to include OLEDs or LEDs (I wanted to conserve battery life as much as possible).
 
-I socketed the nano!nano controllers on each side, following the [documentation](https://nicekeyboards.com/docs/nice-nano/getting-started) on nicekeyboards.com using [these sockets](https://www.digikey.at/product-detail/en/mill-max-manufacturing-corp/110-44-624-41-001000/ED90056-ND/947064) and [these pins](https://www.digikey.be/product-detail/en/mill-max-manufacturing-corp/3320-1-00-15-00-00-03-0/ED1161-ND/4147393). I highly recommend getting thes slightly longer pins rather than using diode legs. These are much stronger and the longer length is easier to install, just clip off the excess after it's mounted.
+I socketed the nano!nano controllers on each side, following the [documentation](https://nicekeyboards.com/docs/nice-nano/getting-started) on nicekeyboards.com using [these sockets](https://www.digikey.at/product-detail/en/mill-max-manufacturing-corp/110-44-624-41-001000/ED90056-ND/947064) and [these pins](https://www.digikey.be/product-detail/en/mill-max-manufacturing-corp/3320-1-00-15-00-00-03-0/ED1161-ND/4147393). I highly recommend getting the slightly longer pins rather than using diode legs. These are much stronger and the longer length is easier to install, just clip off the excess after it's mounted.
+
+As [recommended](https://docs.nicekeyboards.com/#/nice!nano/?id=recommended-batteries-and-sockets), I put the batteries underneath the socketed nano!nanos - they fit perfectly with the sockets I used. The only tiny modification I had to make though was to cut out the middle braces holding the right and left half of the socket together to make room for the battery.
 
 The two mods I made to this build were:
 
